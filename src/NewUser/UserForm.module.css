@@ -1,0 +1,40 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.user-form label {
+  font-weight: bold;
+}
+
+.user-form input {
+  border: 1px solid gainsboro;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+.submit-btn button {
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid #044923;
+  background-color: #044923;
+  font-weight: bold;
+}
+
+.submit-btn button:hover,
+.submit-btn button:active {
+  background-color: #056932;
+  border-color: #056932;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-btn button {
+    width: auto;
+  }
+}
