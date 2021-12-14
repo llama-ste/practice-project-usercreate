@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./UserInfo.module.css";
+import styles from "./UserList.module.css";
 import Card from "../UI/Card";
 
-function UserInfo({ users }) {
+function UserList({ users }) {
   return (
     <Card>
       <div className={styles["user-list"]}>
@@ -19,4 +19,4 @@ function UserInfo({ users }) {
   );
 }
 
-export default UserInfo;
+export default UserList;

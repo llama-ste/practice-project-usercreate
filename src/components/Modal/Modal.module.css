@@ -1,0 +1,54 @@
+.modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  z-index: 100;
+  width: 50%;
+  border-radius: 13px;
+  position: absolute;
+  left: 50%;
+  top: 30vh;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.modal h2 {
+  margin: 0px;
+  padding: 1rem 0.8rem;
+  color: white;
+  border-start-end-radius: 13px;
+  border-start-start-radius: 13px;
+  background-color: #056932;
+}
+
+.modal p {
+  padding: 1rem 0.8rem;
+  background-color: white;
+}
+
+.modal div {
+  padding: 1rem 0.8rem;
+  text-align: end;
+}
+
+.modal div button {
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid #044923;
+  background-color: #044923;
+  font-weight: bold;
+}
+
+.modal div button:hover,
+.modal div button:active {
+  background-color: #056932;
+  border-color: #056932;
+}
